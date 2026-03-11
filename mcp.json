@@ -3,6 +3,11 @@
     "fetch": {
       "command": "uvx",
       "args": ["mcp-server-fetch"]
+    },
+    "logfire": {
+      "command": "uvx",
+      "args": ["logfire-mcp@latest"],
+      "env": { "LOGFIRE_READ_TOKEN": "${LOGFIRE_READ_TOKEN}" }
     }
   }
 }
