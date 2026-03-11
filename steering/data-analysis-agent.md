@@ -173,11 +173,6 @@ if __name__ == '__main__':
 ## SQL Analysis Agent
 
 ```python
-"""
-SQL analysis agent using Pydantic AI with SQLite.
-Set your API key before running:
-    export GEMINI_API_KEY='your-api-key-here'
-"""
 import sqlite3
 from dataclasses import dataclass
 from pydantic_ai import Agent, RunContext, ModelRetry

@@ -56,7 +56,8 @@ python agent.py
 **5. Iterate with conversation history:**
 
 ```python
-
+history = result.new_messages() if result else []
+result = agent.run_sync(prompt, message_history=history)
 ```
 
 ## Installation
