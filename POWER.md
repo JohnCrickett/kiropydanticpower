@@ -98,6 +98,7 @@ Call action "readSteering" with powerName="pydanticai-builder", steeringFile="ar
 - **data-analysis-agent** - A guide to building a data analysys agent.
 - **tool-calling-agent** - A guide to building an agent that makes tool calls.
 - **multi-agent** - A guide to building a multi-agent solution.
+- **evals** — How to evaluate your agents with pydantic-evals, with a complete worked example against the SQL agent
 
 ## MCP Servers
 
