@@ -89,8 +89,10 @@ PydanticAI brings the "FastAPI feeling" to agent development. This power steers 
 
 ## Available Steering Files
 
-This power includes a comprehensive getting-started guide:
+Always read the architecture steering file before writing any PydanticAI code:
+Call action "readSteering" with powerName="pydanticai-builder", steeringFile="architecture.md"
 
+-  **architecture.md** (read always) — Core principles: type safety, agent design, dependency injection, structured outputs, tool design, multi-agent patterns, error handling, evals, observability, deployment, and security.
 - **getting-started** - Complete guide for building agents with Pydantic AI, covering: installation, tools, and troubleshooting.
 - **basic-chatbot** - A guide to building a basic chatbot.
 - **data-analysis-agent** - A guide to building a data analysys agent.
@@ -109,6 +111,7 @@ This power includes a comprehensive getting-started guide:
 - Define a `BaseModel` output type for every agent so the LLM is contractually bound to return structured, validated data.
 - Nest models and use typed lists for complex outputs.
 - Use `Field(description=...)` annotations to give the LLM clear hints about what each field should contain.
+- Use `output_type` instead of the removed `result_type` for structured output
 
 ### Don't:
 - Accept raw string or `dict` outputs from agents in production code.
