@@ -23,3 +23,14 @@ I want to create a chatbot using Pydantic AI and gemini 2.5 flash.
 ```
 I want to build an AI agent using pydantic. The agent should handle support requests from customers and return structured data.
 ```
+
+## Creating a Support Agent with Evals
+
+```text 
+I want to write an agent to handle support tickets. It should parse user request in unstructured text and generate structured output. 
+
+Use Pydantic AI and I want evals to check it works correctly.
+
+User tickets should have a serveity from 1 (highest) to 5 (lowest).
+Tickets should have a title, category, summary and full description. The full description should be what the user provided.
+```
