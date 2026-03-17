@@ -7,7 +7,8 @@
     "logfire": {
       "command": "uvx",
       "args": ["logfire-mcp@latest"],
-      "env": { "LOGFIRE_READ_TOKEN": "${LOGFIRE_READ_TOKEN}" }
+      "env": { "LOGFIRE_READ_TOKEN": "${LOGFIRE_READ_TOKEN}" },
+      "disabled": true
     }
   }
 }

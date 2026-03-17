@@ -99,11 +99,12 @@ Call action "readSteering" with powerName="pydanticai-builder", steeringFile="ar
 - **tool-calling-agent** - A guide to building an agent that makes tool calls.
 - **multi-agent** - A guide to building a multi-agent solution.
 - **evals** — How to evaluate your agents with pydantic-evals, with a complete worked example against the SQL agent
+- **observability.md** — Instrument agents with OpenTelemetry, Pydantic Logfire, and the Logfire MCP server
 
 ## MCP Servers
 
 - **fetch**: HTTP requests for external API integration
-- **logfire**: exposes your OpenTelemetry data in Logfire
+- **logfire**: exposes your OpenTelemetry data in Logfire (disabled by default, requires read token)
 
 # Pydantic AI Best Practices
 
